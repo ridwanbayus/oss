@@ -1,0 +1,20 @@
+Cara mebuat repository (project) Github via Terminal Linux
+
+1. Masuk ke github.com lalu login dengan username dan password yang sudah dibuat
+2. Pilih new (tombol hijau sebelah kiri) untuk membuat repository baru
+3. Beri nama di kolom repository name yang ingin dibuat misal "PRAK-GIT2"
+4. Isi deskripsi, biarkan pilihan repositorynya menjadi Public lalu pilih create repository lalu muncul quick setup salin link HTTPS / SSH yang ada di kolom 
+5. Buka terminal ketikkan git clone (link yang tertera misal:) https://github.com/ridwanbayus/PRAK-GIT2.git 
+6. Folder repository sudah di clone di direktori Home 
+7. Isi folder dengan file yang di inginkan misalnya saya membuat file G231170001_PRAK-GIT2.txt
+8. Masuk terminal lalu masuk ke direktori git yang sudah di clone, misal cd PRAK-GIT2
+9. Cek status dengan mengetikkan git status , jika ada perubahan maka ada tulisan berwarna merah nama file yang baru 
+10. Ketikkan git add (nama file misal: ) G231170001_PRAK-GIT2.txt
+11. Cek lagi statusnya dengan mengetikkan git status , disini file berubah warna menjadi hijau artinya perubahan tersebut sudah diawasi/track di repository lokal
+12. Ketikkan git commit -m (nama file misal: ) G231170001_PRAK-GIT2.txt
+13. Cek lagi statusnya dengan perintah git status , terlihat sudah tidak ada lagi file yang termodifikasi yang belum di catat dan disimpan di dalam repository lokal.
+14. Lalu untuk mengirim perubahan file lokal ke repository ddi github ketikkan git push origin master , nanti diminta untuk memasukkan username dan passoword github yang kita miliki
+15. Cek pada browser github.com repository tujuan apakah file yang kita buat sudah terupload di github repository
+
+
+
