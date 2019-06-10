@@ -15,6 +15,6 @@ Cara mebuat repository (project) Github via Terminal Linux
 13. Cek lagi statusnya dengan perintah git status , terlihat sudah tidak ada lagi file yang termodifikasi yang belum di catat dan disimpan di dalam repository lokal.
 14. Lalu untuk mengirim perubahan file lokal ke repository ddi github ketikkan git push origin master , nanti diminta untuk memasukkan username dan passoword github yang kita miliki
 15. Cek pada browser github.com repository tujuan apakah file yang kita buat sudah terupload di github repository
-apa yang kulakukan hanya lah mencoba dan terus mencoba wannnnnnnnn hahahahahah
+testttttt
 
 
